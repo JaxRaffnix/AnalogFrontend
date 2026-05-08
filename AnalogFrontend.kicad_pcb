@@ -87,10 +87,1078 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "SamacSys_Parts:SKY6540521"
+		(layer "F.Cu")
+		(uuid "5e3766d8-e31f-43da-baaa-1b884574e5d8")
+		(at 124.79 110.52)
+		(descr "6-XFDFN Exposed Pad")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "77d5952a-49b5-435f-8ca8-cb5ffb42d996")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SKY65405-21"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4a13933-e58f-420d-a76e-b20f9bb3db11")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SKY65405-21.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20f12b5f-69dd-480d-a405-38bcb2396d9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RF Amplifier IC 802.11b/g/n 2.4GHz 6-DFN (1.5x1.5)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d24698f-9337-4ff2-a837-5af463f421f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cb84472-ca0a-415a-a78b-30b9208cb4e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "873-SKY65405-21"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c5a7801-1f93-47ed-9837-b1bdbb54e31a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=873-SKY65405-21"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb6542a-b3ad-47e1-b7a9-781dae7631dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Skyworks"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb317d71-641b-4de1-b04f-763bfd1c5136")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKY65405-21"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da5499d5-8922-4a12-baf1-a141803f6b94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/acfbe309-2c47-48a9-9c0e-97bdaf55a4a5")
+		(sheetname "/")
+		(sheetfile "AnalogFrontend.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7")
+			)
+		)
+		(attr smd dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.4 -0.5)
+			(end -1.4 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f2538076-d169-4d86-89bd-0cdd112de148")
+		)
+		(fp_line
+			(start -1.3 -0.5)
+			(end -1.3 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1ba0ebaf-148e-4eae-980e-819665beaf7e")
+		)
+		(fp_arc
+			(start -1.4 -0.5)
+			(mid -1.35 -0.55)
+			(end -1.3 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "851ce1ba-21ca-4e20-90cd-f0d8f4f17870")
+		)
+		(fp_arc
+			(start -1.3 -0.5)
+			(mid -1.35 -0.45)
+			(end -1.4 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ee5a1f7-f3e9-46f8-b4c6-e95b09285d56")
+		)
+		(fp_line
+			(start -1.9 -1.75)
+			(end 1.9 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b697b5d-2516-48ce-9140-671ace8e252d")
+		)
+		(fp_line
+			(start -1.9 1.75)
+			(end -1.9 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97627264-3557-457b-8be8-0f903e2e63ad")
+		)
+		(fp_line
+			(start 1.9 -1.75)
+			(end 1.9 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "650cd889-846d-45bb-91d2-c9df2d7b690a")
+		)
+		(fp_line
+			(start 1.9 1.75)
+			(end -1.9 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aed68c3f-98a8-4676-bbbc-7d3cfede2e65")
+		)
+		(fp_line
+			(start -0.75 -0.75)
+			(end 0.75 -0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c8bad79f-7ccd-40da-a6ec-14866bfdd5b2")
+		)
+		(fp_line
+			(start -0.75 0.75)
+			(end -0.75 -0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8dddd544-764a-4da8-955d-08a94755905f")
+		)
+		(fp_line
+			(start 0.75 -0.75)
+			(end 0.75 0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dd14c492-d0d3-47bf-9655-d67f3d2eb009")
+		)
+		(fp_line
+			(start 0.75 0.75)
+			(end -0.75 0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fdbc53bb-22ad-4cdf-8be4-a85d0e257a03")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e6cdf85e-62c3-4c4e-86da-82f34a882692")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.725 -0.5 90)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(IC2-V_ENABLE_-Pad1)")
+			(pinfunction "V_ENABLE__1")
+			(pintype "passive")
+			(uuid "3fa04cf4-fdf4-4fbc-82d3-555b5b10778e")
+		)
+		(pad "2" smd rect
+			(at -0.725 0 90)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GND_1_2")
+			(pintype "passive")
+			(uuid "ba0595cf-6375-425b-8562-ff66c6fd77f8")
+		)
+		(pad "3" smd rect
+			(at -0.725 0.5 90)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(IC2-RF_IN)")
+			(pinfunction "RF_IN_3")
+			(pintype "passive")
+			(uuid "0a72c033-e3b7-4ac0-81a7-60fbf465aecf")
+		)
+		(pad "4" smd rect
+			(at 0.725 0.5 90)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(IC2-RF_OUT)")
+			(pinfunction "RF_OUT_4")
+			(pintype "passive")
+			(uuid "27cd5606-fa5a-48b7-8a28-d71a150cd66e")
+		)
+		(pad "5" smd rect
+			(at 0.725 0 90)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GND_2_5")
+			(pintype "passive")
+			(uuid "2017d207-9b4d-488e-84a1-cdc1a817d526")
+		)
+		(pad "6" smd rect
+			(at 0.725 -0.5 90)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/5.0V")
+			(pinfunction "VCC_6")
+			(pintype "passive")
+			(uuid "7b0971f9-2f33-43f7-b8d6-bf0396d5204e")
+		)
+		(pad "7" smd rect
+			(at 0 0)
+			(size 0.7 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GND_3_7")
+			(pintype "passive")
+			(uuid "0cd04595-a31c-4086-a01f-3836dc64df13")
+		)
+		(embedded_fonts no)
+		(model "C:\\Users\\Jax\\Documents\\KiCad\\10.0\\SamacSys_Parts.3dshapes\\SKY65405-21.stp"
+			(offset
+				(xyz -0.02999999888 0 0.01999999925)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SamacSys_Parts:LLP2500XB30"
+		(layer "F.Cu")
+		(uuid "672677b3-6386-48f6-ba1d-b40e02c55e51")
+		(at 128.855 115.02)
+		(descr "LLP.2500.X.B.30-3")
+		(tags "Filter")
+		(property "Reference" "FL1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "e8234cf1-8dd4-4d3e-8e17-db9e556916ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "LLP.2500.X.B.30"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84564f2a-de6f-48e3-9abd-a8048c9f381e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.taoglas.com/datasheets/LLP.2500.X.B.30.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29cf1fa4-e3fa-44cc-a01b-d0f53b4d0e96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.45GHz Center Frequency Low Pass RF Filter (Radio Frequency) 100MHz Bandwidth 0.5dB 0805 (2012 Metric), 8 PC Pad"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed39b1fa-b270-4364-ae68-fcaceda36abe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.15"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72546c83-c454-4327-960a-05e4678e0411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1293908-6350-4563-8e18-8fece049e89b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c16a41e8-43cc-42ce-b881-52a482751c4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Taoglas"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8723d75-1e89-4b35-8fb1-765bee36d637")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LLP.2500.X.B.30"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82b95413-5255-45ad-9086-c64e4237e6e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4ddb6760-4f27-4b23-8084-f613b3ef79d9")
+		(sheetname "/")
+		(sheetfile "AnalogFrontend.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "6" "2" "7" "3" "8" "5")
+			)
+		)
+		(attr smd dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.66 -1.2)
+			(end -0.66 -1.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a678110-0888-4759-98cd-dee9b566de41")
+		)
+		(fp_line
+			(start -0.66 -1.1)
+			(end -0.66 -1.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d31d3610-0645-42fd-b6b7-df3c8d247d85")
+		)
+		(fp_arc
+			(start -0.66 -1.2)
+			(mid -0.61 -1.15)
+			(end -0.66 -1.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2a1cea4-f10d-479f-9783-5ebccd76b905")
+		)
+		(fp_arc
+			(start -0.66 -1.1)
+			(mid -0.71 -1.15)
+			(end -0.66 -1.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba9819cd-12d2-4f35-8c61-8e8cadc9ef32")
+		)
+		(fp_line
+			(start -2.035 -1.72)
+			(end 2.035 -1.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a43f3191-a241-479b-9b65-a3029766250a")
+		)
+		(fp_line
+			(start -2.035 1.72)
+			(end -2.035 -1.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50a24be4-078b-4aad-9f78-3f30a653f191")
+		)
+		(fp_line
+			(start 2.035 -1.72)
+			(end 2.035 1.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "de962ede-9f77-47ad-a72a-d4e0b3c80569")
+		)
+		(fp_line
+			(start 2.035 1.72)
+			(end -2.035 1.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "73eeb1c6-6323-4524-b1b5-fe859c408b50")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c8b0aebd-d6d4-4d7a-993a-3c6d61705075")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a1873cbe-e9e0-476e-9fa2-ded9fdb0b578")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4520fa2-860c-4b77-b14d-9e67389ad468")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "412bc460-9319-4f7e-afb7-110c12ceb706")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "52af41d4-2c02-4989-83f5-665327e1b6e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.66 -0.5)
+			(size 0.4 0.44)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(FL1-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "0008216e-cad4-4125-906e-b4ce4d65feb5")
+		)
+		(pad "2" smd rect
+			(at 0 -0.5)
+			(size 0.4 0.44)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(FL1-Pad2)")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "5d6198a8-3dd3-4903-a17b-b1f5b4c06d77")
+		)
+		(pad "3" smd rect
+			(at 0.66 -0.5)
+			(size 0.4 0.44)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(FL1-Pad3)")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "0d47c0ac-b3f6-4826-899f-4efae523bbcf")
+		)
+		(pad "4" smd rect
+			(at -0.86 0)
+			(size 0.35 0.36)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(IC1-IF)")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "4e160d71-f02d-46e8-9c91-f5d61f78d447")
+		)
+		(pad "5" smd rect
+			(at 0.86 0)
+			(size 0.35 0.36)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(IC2-RF_IN)")
+			(pinfunction "5_5")
+			(pintype "passive")
+			(uuid "df0f1657-41cc-4b87-a253-707d6f613bda")
+		)
+		(pad "6" smd rect
+			(at -0.66 0.5)
+			(size 0.4 0.44)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(FL1-Pad6)")
+			(pinfunction "6_6")
+			(pintype "passive")
+			(uuid "98a0b717-be70-4c33-8d6d-8032a8c5fa10")
+		)
+		(pad "7" smd rect
+			(at 0 0.5)
+			(size 0.4 0.44)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(FL1-Pad7)")
+			(pinfunction "7_7")
+			(pintype "passive")
+			(uuid "60c5b628-4237-4b0b-828c-233cad92dcbb")
+		)
+		(pad "8" smd rect
+			(at 0.66 0.5)
+			(size 0.4 0.44)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(FL1-Pad8)")
+			(pinfunction "8_8")
+			(pintype "passive")
+			(uuid "0c3710ba-108c-4658-83b8-7a4bb9b1d29d")
+		)
+		(embedded_fonts no)
+		(model "C:\\Users\\Jax\\Documents\\KiCad\\10.0\\SamacSys_Parts.3dshapes\\LLP.2500.X.B.30.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SamacSys_Parts:RMS30"
+		(layer "F.Cu")
+		(uuid "8bd2fe23-e08a-43f2-81c4-f11ca9ed68e3")
+		(at 133.5 105)
+		(descr "TT240")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "c28194dd-0c40-491d-80a9-0a471de55ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "RMS-30+"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b29dd9ce-a31b-45ba-8977-d8667f20dfb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/RMS-30+.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93e7f42f-8793-462f-8a46-31439fa42be4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Frequency Mixer Level 7 (LO Power +7 dBm) 200 to 3000 MHz, CASE STYLE: TT240"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af94de2-8a94-427f-90de-2e06d82b2a2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "5.08"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cbf2f18-42fd-4713-a3d1-ee39256c60d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a00d792-0f9d-45b0-8a58-c3482d1c919f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a66b09e7-5d8d-4db6-9eea-2d3f0e44b846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Mini-Circuits"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3a4d727-398c-4937-bb4f-a15d3d10c1b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMS-30+"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f35262f2-5bab-4b0d-ac38-4902ad0f4009")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6f0f90d0-aa79-4498-b163-1f3a1b739075")
+		(sheetname "/")
+		(sheetfile "AnalogFrontend.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "5" "4" "1" "2" "3")
+			)
+		)
+		(attr smd dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.935 -3.175)
+			(end -3.935 3.175)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "406eb2bc-c1f0-449a-a163-0dba39dc0b1f")
+		)
+		(fp_line
+			(start -3.935 3.175)
+			(end -3.4 3.175)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52abd05c-3193-45d3-ae4b-2053b19564fb")
+		)
+		(fp_line
+			(start -3.4 -3.175)
+			(end -3.935 -3.175)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6c8d2b2f-1315-4cc4-aaa3-813007ac222a")
+		)
+		(fp_line
+			(start -2.54 -4)
+			(end -2.54 -4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1fd3ee2b-d9f9-434d-8ed4-e601354d844c")
+		)
+		(fp_line
+			(start -2.54 -3.9)
+			(end -2.54 -3.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "05a40f93-9563-4136-8e54-4502bea9e98e")
+		)
+		(fp_line
+			(start 3.4 -3.175)
+			(end 3.935 -3.175)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d390915e-8b6d-498d-b79e-090304f6aa49")
+		)
+		(fp_line
+			(start 3.935 -3.175)
+			(end 3.935 3.175)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "09c543d6-fb3f-4bf8-a601-9acd883a8ba2")
+		)
+		(fp_line
+			(start 3.935 3.175)
+			(end 3.4 3.175)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ce80868-7376-4cc5-8ab3-9c7ac11b7c02")
+		)
+		(fp_arc
+			(start -2.54 -4)
+			(mid -2.49 -3.95)
+			(end -2.54 -3.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "994c96d1-d730-4c5e-a5ec-68bd172ab78b")
+		)
+		(fp_arc
+			(start -2.54 -3.9)
+			(mid -2.59 -3.95)
+			(end -2.54 -4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a240b480-2e14-41dd-9e9d-fe431a77b656")
+		)
+		(fp_line
+			(start -4.935 -4.43)
+			(end 4.935 -4.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f263058a-011e-445d-94fe-72a6d6030529")
+		)
+		(fp_line
+			(start -4.935 4.43)
+			(end -4.935 -4.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3bad521-7961-4694-b20b-a3cb143c7827")
+		)
+		(fp_line
+			(start 4.935 -4.43)
+			(end 4.935 4.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9d6f57f1-eeb8-4ed7-a78a-e801d5bb44c6")
+		)
+		(fp_line
+			(start 4.935 4.43)
+			(end -4.935 4.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "13075356-1a6c-4fa1-9993-99084970e3b3")
+		)
+		(fp_line
+			(start -3.935 -3.175)
+			(end 3.935 -3.175)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec2c07dc-ffa5-43b3-b21d-40253c50f417")
+		)
+		(fp_line
+			(start -3.935 3.175)
+			(end -3.935 -3.175)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "494e2445-85c0-4f62-8848-e704acda9e47")
+		)
+		(fp_line
+			(start 3.935 -3.175)
+			(end 3.935 3.175)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "63e69749-1305-45ed-98d7-eef9c0a5fa2f")
+		)
+		(fp_line
+			(start 3.935 3.175)
+			(end -3.935 3.175)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "43ffd087-6add-4a1c-aed5-626b7989eee2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "820078fc-6134-4014-ad6a-c343d20452e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.54 -2.54)
+			(size 1.27 1.78)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(IC1-LO-Pad1)")
+			(pinfunction "LO_1")
+			(pintype "passive")
+			(uuid "8d6b3ea5-bc48-40ba-a9a5-923da0325960")
+		)
+		(pad "2" smd rect
+			(at 0 -2.54)
+			(size 1.27 1.78)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GROUND_1_2")
+			(pintype "passive")
+			(uuid "d63ed40b-3789-4450-96f1-39c2d131e679")
+		)
+		(pad "3" smd rect
+			(at 2.54 -2.54)
+			(size 1.27 1.78)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GROUND_2_3")
+			(pintype "passive")
+			(uuid "e909ab63-ce91-43f6-8fb2-ac0cc32eaf6b")
+		)
+		(pad "4" smd rect
+			(at 2.54 2.54)
+			(size 1.27 1.78)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(IC1-RF)")
+			(pinfunction "RF_4")
+			(pintype "passive")
+			(uuid "766abbeb-3fc3-49f0-8d80-88dc2c3fe7f1")
+		)
+		(pad "5" smd rect
+			(at 0 2.54)
+			(size 1.27 1.78)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(IC1-IF)")
+			(pinfunction "IF_5")
+			(pintype "passive")
+			(uuid "ff7b3c8d-1e40-430e-b9f4-b3984a378fc1")
+		)
+		(pad "6" smd rect
+			(at -2.54 2.54)
+			(size 1.27 1.78)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GROUND_3_6")
+			(pintype "passive")
+			(uuid "fde293cb-66f7-46c2-a146-97c709077c56")
+		)
+		(embedded_fonts no)
+		(model "C:\\Users\\Jax\\Documents\\KiCad\\10.0\\SamacSys_Parts.3dshapes\\RMS-30+.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
 		(layer "F.Cu")
 		(uuid "a411e9e4-bea4-4a6b-adbf-731df92d7aca")
-		(at 152.5 98.625)
+		(at 144.5 107)
 		(descr "QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274)")
 		(tags "QFN NoLead")
 		(property "Reference" "U1"
@@ -150,7 +1218,6 @@
 			)
 		)
 		(property ki_fp_filters "QFN*4x4mm*P0.5mm*")
-		(path "/83d0f3dc-e645-4ba7-a1b4-d82e32de2f00")
 		(sheetname "/")
 		(sheetfile "AnalogFrontend.kicad_sch")
 		(units

@@ -630,15 +630,24 @@
         "filename": "AnalogFrontend.kicad_sch",
         "name": "Root",
         "uuid": "655a4952-2e3b-4ce4-9332-fc2a7b627f60"
+      },
+      {
+        "filename": "reciever.kicad_sch",
+        "name": "Reciever",
+        "uuid": "6899f803-2433-4709-9168-a4cef3603688"
       }
     ],
-    "used_designators": "U1,#PWR1,J1",
+    "used_designators": "J1-3,IC1-2,FL1,#PWR1-7",
     "variants": []
   },
   "sheets": [
     [
       "655a4952-2e3b-4ce4-9332-fc2a7b627f60",
       "Root"
+    ],
+    [
+      "6899f803-2433-4709-9168-a4cef3603688",
+      "Reciever"
     ]
   ],
   "text_variables": {},
