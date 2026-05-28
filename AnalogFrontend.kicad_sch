@@ -4287,7 +4287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 34.29 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7120,7 +7120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 266.7 62.23 0)
 			(hide yes)
 			(show_name no)
